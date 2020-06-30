@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: black;
+}
+.box {
+  color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+  position: relative;
+  top: 2em;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  font-size: 20px;
+  border-left: palevioletred solid 0.5em;
+}
+
+.navbar {
+  display: flex;
+  list-style: none;
+  font-size: 20px;
+  text-decoration: none;
+  align-items: center;
+}
+
+.nav-element {
+  padding-right: 30px;
+}
+
+.image1 {
+  height: 500px;
+  width: 1150px;
+}
+
+.text {
+  position: relative;
+  top: -10em;
+  font-size: 2em;
+  text-align: center;
+  color: white;
+}
+
+.laptop {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background-color: black; */
+}
+
+.Easy {
+  height: 150px;
+  width: 250px;
+  margin-top: -100px;
+  padding: 2em;
+  padding-bottom: 0%;
+}
+
+.Easy1 {
+  height: 150px;
+  width: 250px;
+  margin-top: -100px;
+  padding: 2em;
+  padding-bottom: 0%;
+}
+
+.Easy2 {
+  height: 150px;
+  width: 250px;
+  margin-top: -100px;
+  padding: 2em;
+  padding-bottom: 0%;
+}
+
+#one {
+  background-color: red;
+  text-align: center;
+}
+
+#two {
+  background-color: yellowgreen;
+  text-align: center;
+}
+
+#three {
+  background-color: orangered;
+  text-align: center;
+}
