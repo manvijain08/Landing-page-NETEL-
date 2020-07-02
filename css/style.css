@@ -42,7 +42,7 @@ body {
 
 .text {
   position: relative;
-  top: -14em;
+  top: -10em;
   font-size: 2em;
   text-align: center;
   color: white;
@@ -52,7 +52,6 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  /* background-color: black; */
 }
 
 .Easy {
@@ -120,4 +119,50 @@ button {
   background-color: black;
   color: white;
   border: solid white;
+}
+
+.recent {
+  color: white;
+  text-align: center;
+}
+
+.pictures {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.apple {
+  height: 250px;
+  width: 400px;
+}
+
+.bat {
+  height: 250px;
+  width: 400px;
+}
+
+.cat {
+  height: 250px;
+  width: 400px;
+}
+
+.dat {
+  height: 250px;
+  width: 300px;
+}
+
+.eat {
+  height: 250px;
+  width: 300px;
+}
+
+.fat {
+  height: 250px;
+  width: 300px;
+}
+
+.gat {
+  height: 250px;
+  width: 300px;
 }
