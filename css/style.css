@@ -42,7 +42,7 @@ body {
 
 .text {
   position: relative;
-  top: -10em;
+  top: -14em;
   font-size: 2em;
   text-align: center;
   color: white;
@@ -56,7 +56,7 @@ body {
 }
 
 .Easy {
-  height: 150px;
+  height: 200px;
   width: 250px;
   margin-top: -100px;
   padding: 2em;
@@ -64,7 +64,7 @@ body {
 }
 
 .Easy1 {
-  height: 150px;
+  height: 200px;
   width: 250px;
   margin-top: -100px;
   padding: 2em;
@@ -72,7 +72,7 @@ body {
 }
 
 .Easy2 {
-  height: 150px;
+  height: 200px;
   width: 250px;
   margin-top: -100px;
   padding: 2em;
@@ -82,14 +82,42 @@ body {
 #one {
   background-color: red;
   text-align: center;
+  font-size: 18px;
 }
 
 #two {
   background-color: yellowgreen;
   text-align: center;
+  font-size: 18px;
 }
 
 #three {
   background-color: orangered;
   text-align: center;
+  font-size: 18px;
+}
+
+.second {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 150px;
+}
+
+.img2 {
+  height: 290px;
+  width: 400px;
+  /* margin: 20px; */
+}
+
+.startup {
+  color: white;
+  font-size: 20px;
+}
+input,
+button {
+  height: 40px;
+  width: 120px;
+  background-color: black;
+  color: white;
+  border: solid white;
 }
