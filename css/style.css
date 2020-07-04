@@ -4,7 +4,7 @@
   font-family: "Roboto", sans-serif;
 }
 body {
-  background-color: black;
+  background-color: #0e0d0d;
 }
 .box {
   color: white;
@@ -105,7 +105,6 @@ body {
 .img2 {
   height: 290px;
   width: 400px;
-  /* margin: 20px; */
 }
 
 .startup {
@@ -119,6 +118,8 @@ button {
   background-color: black;
   color: white;
   border: solid white;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .recent {
@@ -165,4 +166,89 @@ button {
 .gat {
   height: 250px;
   width: 300px;
+}
+
+.btn1 {
+  height: 40px;
+  width: 90px;
+  background-color: black;
+  color: white;
+  margin-left: 600px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.last {
+  background-color: #272626;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+.free {
+  color: white;
+  margin-top: 80px;
+  margin-bottom: 70px;
+}
+
+.useful {
+  color: white;
+  margin-top: 80px;
+  margin-bottom: 70px;
+}
+
+.news {
+  color: white;
+  margin-top: 80px;
+  margin-bottom: 70px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin: 0 10em;
+}
+
+.fb {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+}
+
+.twitter {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+}
+
+.instagram {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+}
+
+.msg {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+}
+
+.phn {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+}
+
+#mail {
+  padding: 0 13em 0 1em;
+}
+
+#side {
+  margin-right: 1em;
+}
+
+#submit {
+  font-size: 15px;
+  font-weight: 600;
 }
